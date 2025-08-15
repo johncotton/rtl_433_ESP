@@ -218,7 +218,7 @@ void rtlSetup() {
       memcpy(&cfg->devices[129], &silvercrest, sizeof(r_device));
       memcpy(&cfg->devices[130], &ss_sensor, sizeof(r_device));
       memcpy(&cfg->devices[131], &skylink_motion, sizeof(r_device));
-      memcpy(&cfg->devices[132], &smoke_gs558, sizeof(r_device));
+      // memcpy(&cfg->devices[132], &smoke_gs558, sizeof(r_device));
       memcpy(&cfg->devices[133], &solight_te44, sizeof(r_device));
       memcpy(&cfg->devices[134], &somfy_rts, sizeof(r_device));
       memcpy(&cfg->devices[135], &springfield, sizeof(r_device));
